@@ -46,3 +46,7 @@ Feel free to clone this repository to your local machine for easy access to code
 ## Feedback and Contributions
 
 If you have feedback on the course content or find any issues with the code samples, please open an issue in this repository. Contributions and improvements are welcome! Fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
