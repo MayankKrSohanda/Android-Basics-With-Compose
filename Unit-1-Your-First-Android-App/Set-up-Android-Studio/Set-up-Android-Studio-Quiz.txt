@@ -1,0 +1,35 @@
+1. What does IDE stand for?
+Ans. Integrated Development Environment
+
+2. Which of the following are advantages of using Android Studio?
+Ans. Multiple:
+	It can help prevent typos and other mistakes in your code.
+	It comes with a virtual device called an emulator that can run your app.
+	It can show you a real-time preview of how your app will look on-screen while you code.
+	
+3. What is the purpose of using a virtual device, or emulator, in Android Studio?
+Ans. To test your app on a device without having that physical device
+
+4. In Android Studio, what is a project template good for?
+Ans. Multiple:
+	It makes getting started on building a new app faster.
+	It provides a structure that follows best practices.
+	It makes building a new app less error-prone by pre-populating the project with some app code.
+
+5. How do you create a new project in Android Studio?
+Ans. Both B and C are ways to create a new project in Android Studio.
+
+6. ___ is a function that is used to define a layout in your app using Composable functions.
+Ans. setContent()
+
+7. A Compose function requires the @Composable annotation.
+Ans. True
+
+8. A ___ is a Composable that has a background color and can contain other Composables.
+Ans. Surface
+
+9. Padding is an example of a ___
+Ans. Modifier
+
+10. Which of the following is false about Compose?
+Ans. All elements and themes in a Compose app are contained in a Surface.
