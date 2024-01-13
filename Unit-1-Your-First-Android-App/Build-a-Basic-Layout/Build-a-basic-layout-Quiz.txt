@@ -1,0 +1,32 @@
+1. What is Jetpack Compose?
+Ans. A Modern toolkit to develop Android UI
+
+2. Composable functions are the basic building block of Compose.
+Ans. True
+
+3. What annotation is used to annotate a Composable function?
+Ans. @Composable
+
+4. The three basic standard layout elements in Compose are
+Ans. Multiple:
+	Column
+	Row
+	Box
+
+5. What is the tool window for importing, creating, managing, and using resources in your app?
+Ans. Resource Manager
+
+6. Which class is an automatically generated class by Android that contains the IDs of all resources in the project.
+Ans. The R Class
+
+7. Which function is used is to load a drawable image resource.
+Ans. The painterResource() function
+
+8. What is the function parameter used to add accessibility text, used by talkback?
+Ans. contentDescription
+
+9. The Box layout stacks the UI elements on top of one another.
+Ans. True
+
+10. What parameter is used to align the child element to the beginning of the parent?
+Ans. Alignment.Start
