@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name_mayank_kumar_sohanda">Mayank Kumar Sohanda</string>
+    <string name="title_android_developer">Android Developer</string>
+    <string name="phone_number">+91 9876543210</string>
+    <string name="username">\@MayankKrSohanda</string>
+    <string name="email">mayankkumarsohanda@gmail.com</string>
+</resources>
