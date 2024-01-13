@@ -53,8 +53,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun BusinessCardApp() {
     Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.SpaceAround
+        verticalArrangement = Arrangement.SpaceAround,
+        modifier = Modifier.fillMaxSize()
     ) {
         TitleCard(
             name = stringResource(R.string.name_mayank_kumar_sohanda),
