@@ -91,7 +91,8 @@ fun ArticleCardPreview() {
             title = stringResource(R.string.title_jetpack_compose_tutorial),
             shortDescription = stringResource(R.string.compose_short_desc),
             longDescription = stringResource(R.string.compose_long_desc),
-            imagePainter = painterResource(R.drawable.bg_compose_background)
+            imagePainter = painterResource(R.drawable.bg_compose_background),
+            modifier = Modifier.fillMaxSize()
         )
     }
 }
