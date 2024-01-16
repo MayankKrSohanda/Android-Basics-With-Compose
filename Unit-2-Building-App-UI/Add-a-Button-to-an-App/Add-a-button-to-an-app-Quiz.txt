@@ -1,0 +1,20 @@
+1. Use a ___ Composable to display an image
+Ans. Image
+
+2. Alignment.Center centers UI components both horizontally and vertically.
+Ans. True
+
+3. Composable functions can store an object in memory using the ___ composable
+Ans. remember
+
+4. The debugger allows you to inspect variables when code execution has been suspended.
+Ans. True
+
+5. By using ___ values in a composable function, variables can be made into observables that schedule a recomposition when their value is changed.
+Ans. mutableStateOf
+
+6. The ___ composable places its children in a vertical sequence.
+Ans. Column
+
+7. The ___ debugger feature allows you to navigate back up the call stack.
+Ans. Step out
