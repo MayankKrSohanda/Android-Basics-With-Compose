@@ -214,3 +214,5 @@ fun DisplayController(
 fun ArtworkWallPreview() {
     ArtSpaceLayout()
 }
+
+// Works well in Landscape mode as well.
