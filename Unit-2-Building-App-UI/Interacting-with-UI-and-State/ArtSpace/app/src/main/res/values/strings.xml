@@ -5,7 +5,9 @@
     <string name="nature_landscape_title">Nature Landscape</string>
     <string name="portrait_sketch_title">Portrait Sketch</string>
 
-    <string name="artist">pixelstalk.net</string>
+    <string name="gradient_smoky_artist">pixelstalk.net</string>
+    <string name="nature_landscape_artist">pixelstalk.net</string>
+    <string name="portrait_sketch_artist">pixelstalk.net</string>
 
     <string name="previous_image_button">Previous</string>
     <string name="next_image_button">Next</string>
