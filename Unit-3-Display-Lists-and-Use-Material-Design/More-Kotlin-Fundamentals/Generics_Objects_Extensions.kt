@@ -14,8 +14,29 @@ data class Question<T> (
 )
 
 class Quiz : ProgressPrintable {
+    companion object StudentProgress {
+        var total: Int = 10
+    	var answered: Int = 3
+    }
+    
     override val progressText: String
     	get() = "${Quiz.answered} of ${Quiz.total} answered"
+    
+    val question1 = Question<String>(
+        questionText = "Quoth the raven ___", 
+        answer = "nevermore", 
+        difficulty = Difficulty.MEDIUM
+    )
+	val question2 = Question<Boolean>(
+        questionText = "The sky is green. True or false", 
+        answer = false, 
+        difficulty = Difficulty.EASY
+    )
+	val question3 = Question<Int>(
+        questionText = "How many days are there between full moons?", 
+        answer = 28, 
+        difficulty = Difficulty.HARD
+    )
     
     override fun printProgressBar() {
         repeat(Quiz.answered) { print("▓") }
@@ -43,27 +64,6 @@ class Quiz : ProgressPrintable {
         	println(it.difficulty)
         }
         println()
-    }
-    
-    val question1 = Question<String>(
-        questionText = "Quoth the raven ___", 
-        answer = "nevermore", 
-        difficulty = Difficulty.MEDIUM
-    )
-	val question2 = Question<Boolean>(
-        questionText = "The sky is green. True or false", 
-        answer = false, 
-        difficulty = Difficulty.EASY
-    )
-	val question3 = Question<Int>(
-        questionText = "How many days are there between full moons?", 
-        answer = 28, 
-        difficulty = Difficulty.HARD
-    )
-    
-    companion object StudentProgress {
-        var total: Int = 10
-    	var answered: Int = 3
     }
 }
 
