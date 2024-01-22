@@ -1,0 +1,35 @@
+1. Which of the following is a valid way to define a data class in Kotlin?
+Ans. data class Person(val name: String, val age: Int)
+
+2. When using a sealed class, all direct subclasses must be in the same package.
+Ans. true
+
+3. When using generics, the generic data type goes inside ___.
+Ans. <>
+
+4. A(n) ___ class is useful when you have a fixed set of values.
+Ans. enum
+
+5. To create a list object that has the ability to change its size, you would call ___.
+Ans. mutableListOf()
+
+6. Which of the following are higher-order functions?
+Ans. Multiple:
+	map
+	filter
+	forEach
+
+7. Given the following line of code, which of the following commands will print Blue?
+	val colors = listOf("Red", "Green", "Blue")
+Ans. Multiple:
+	println(colors[2])
+	println(colors.get(2))
+
+8. The programming concept of a class that has only one instance is called a ___.
+Ans. Singleton
+
+9. Which of the following statements is true regarding sets and maps?
+Ans. A set must contain distinct values and a map’s keys must be distinct.
+
+10. If you have a variable named records, which is a collection, to determine the number of items it contains, you can call ___.
+Ans. records.size
