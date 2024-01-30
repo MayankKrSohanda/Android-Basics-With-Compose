@@ -68,4 +68,5 @@ fun main() {
     println("Last event of the day: ${events.last().title}")
     
     println("Duration of first event of the day: ${events[0].durationOfEvent}")
+
 }
