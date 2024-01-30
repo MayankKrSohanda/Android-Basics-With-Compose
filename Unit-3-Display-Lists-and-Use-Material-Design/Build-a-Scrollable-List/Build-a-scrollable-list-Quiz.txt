@@ -1,0 +1,23 @@
+1. Adaptive launcher icons for Android apps consist of a foreground and background vector drawable.
+Ans. True
+
+2. When building a UI that requires a scrolling list with a variable number of items, which Composable should you use?
+Ans. LazyColumn
+
+3. What file type is used for the launcher icon foreground and background vectors?
+Ans. .xml
+
+4. Which Composable should you use to create a vertically scrollable grid with an undetermined number of items?
+Ans. LazyVerticalGrid
+
+5. The Column composable is not a good option for a list of items of unknown quantity because ___.
+Ans. It can only hold a small, finite number of predefined items
+
+6. The ___ method is used to add content to a LazyColumn Composable.
+Ans. items()
+
+7. Which Composable arranges items horizontally?
+Ans. Row
+
+8. Which Composable arranges items vertically?
+Ans. Column
